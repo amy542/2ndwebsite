@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="java.js">
+        </script>
+        <title>
+            Keep Cats Indoors!
+        </title>
+        <link rel="icon" src="CatLogo.png" type="image">
+    </head>
+    <body>
+        <nav>
+            <a id="homepagetab" href="index.html">Homepage</a>
+            <a id="abouttab" href="about.html">About</a>
+        </nav>
+        <header>
+            <h1>Keep Cats Indoors!</h1>
+            <img src="CatLogo.png" alt="website logo is of a cat with unicorn horn" width="90px">
+        </header>
+        <!--DEMONSTRATING JS USAGE-->
+        <section id="quiz">
+            <h2>
+                Are you are responsible cat owner?
+            </h2>
+            <form>
+                <div>
+                    <h3>Do you provide a stimulating indoor environment for your cat(s)? Check all appropriate boxes.</h3>
+
+                    <input type="checkbox" id="toys" name="stimulating" value="Lots Toys">
+                    <label for="toys">I provide cat(s) with lots of toys</label><br>
+
+                    <input type="checkbox" id="food" name="stimulating" value="Lots Foods">
+                    <label for="food">I feed cat(s) varied foods</label><br>
+
+                    <input type="checkbox" id="space" name="stimulating" value="Lots Space">
+                    <label for="space">I give cat(s) own space</label><br>
+
+                    <input type="checkbox" id="explore" name="stimulating" value="Lots Explore">
+                    <label for="explore">I give cat(s) many spaces to explore</label><br>
+                </div>
+                <div>
+                    <h3>Do you let your cat outside?</h3>
+
+                    <input type="radio" id="always" name="outside" value="always">
+                    <label for="always">Yes - all the time</label><br>
+
+                    <input type="radio" id="Occasionally" name="outside" value="Occasionally">
+                    <label for="Occasionally">Occasionally</label><br>
+
+                    <input type="radio" id="No" name="outside" value="No">
+                    <label for="No">No</label><br>
+
+                    <input type="radio" id="Never" name="outside" value="Never">
+                    <label for="Never">Never - my cat has never ever gone outdoors</label><br>
+                </div>
+                <div>
+                    <h3>How many cats do you have?</h3>
+                    <input type="number" id="nocats" ><br>
+                </div>
+                <div>
+                    <input type="button" onclick="runQuiz()" value="Click here to enter!">
+                </div>
+            </form>
+        </section>
+        <aside>
+            <h3>
+                Useful Links
+            </h3>
+            <ol>
+                <li>
+                    <a href="https://www.google.co.uk/">Google</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/">BBC</a>
+                </li>
+            </ol>
+        </aside>
+        <footer>
+            <p>Copyright 2023</p>
+            <a href="https://www.flaticon.com/free-icons/cute" title="cute icons">Cute icons created by Freepik - Flaticon</a>
+        </footer>
+    </body>
+</html>
